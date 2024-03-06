@@ -1,9 +1,62 @@
-<mxfile host="app.diagrams.net" modified="2024-03-06T05:21:00.410Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="eTdMws_tPLbocnlETP19" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-06T05:35:19.837Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="U40CHd2XX8PyCGBOBzYY" version="24.0.2" type="github">
   <diagram name="第 1 页" id="65FCuox_Sd-uOo7_R2Wj">
     <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="z0QUdJSQPWOL-MIopgSN-22" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="50" y="250" width="660" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="z0QUdJSQPWOL-MIopgSN-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="z0QUdJSQPWOL-MIopgSN-1" target="z0QUdJSQPWOL-MIopgSN-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z0QUdJSQPWOL-MIopgSN-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Consumer&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;font&gt;消费者&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="70" y="120" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="z0QUdJSQPWOL-MIopgSN-4" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Provider&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Comic Sans MS&quot;&gt;提供者&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="505" y="120" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="z0QUdJSQPWOL-MIopgSN-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="z0QUdJSQPWOL-MIopgSN-8" target="z0QUdJSQPWOL-MIopgSN-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z0QUdJSQPWOL-MIopgSN-8" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;代理对象&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="70" y="320" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z0QUdJSQPWOL-MIopgSN-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="z0QUdJSQPWOL-MIopgSN-10" target="z0QUdJSQPWOL-MIopgSN-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z0QUdJSQPWOL-MIopgSN-26" value="&lt;span style=&quot;font-size: 13px;&quot;&gt;请求&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="z0QUdJSQPWOL-MIopgSN-13">
+          <mxGeometry x="0.05" relative="1" as="geometry">
+            <mxPoint x="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z0QUdJSQPWOL-MIopgSN-10" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;请求客户端&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;HTTP/其他&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="70" y="480" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z0QUdJSQPWOL-MIopgSN-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="z0QUdJSQPWOL-MIopgSN-12" target="z0QUdJSQPWOL-MIopgSN-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z0QUdJSQPWOL-MIopgSN-12" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Web服务器&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="510" y="480" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z0QUdJSQPWOL-MIopgSN-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="z0QUdJSQPWOL-MIopgSN-16" target="z0QUdJSQPWOL-MIopgSN-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z0QUdJSQPWOL-MIopgSN-16" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;请求处理器&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;RequestHandler&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="510" y="380" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z0QUdJSQPWOL-MIopgSN-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="z0QUdJSQPWOL-MIopgSN-17" target="z0QUdJSQPWOL-MIopgSN-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z0QUdJSQPWOL-MIopgSN-17" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;本地服务注册器&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;LocalServiceRegistry&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="510" y="270" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z0QUdJSQPWOL-MIopgSN-27" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;序列化 / 反序列化&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="310" y="530" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="z0QUdJSQPWOL-MIopgSN-28" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Comic Sans MS&quot;&gt;RPC 框架&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="610" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
